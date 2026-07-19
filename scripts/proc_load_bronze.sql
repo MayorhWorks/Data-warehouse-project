@@ -133,7 +133,7 @@ BEGIN
 
 
 			PRINT '>> Inserting Data into Table:bronze.erp_px_cat_g1v2';
-			BULK INSERT bronze.erp_loc_a101
+			BULK INSERT bronze.erp_px_cat_g1v2
 			FROM 'C:\Users\Mayor\OneDrive\Desktop\DWH\datasets\source_erp\px_cat_g1v2.csv'
 			WITH (
 				FIRSTROW = 2,
